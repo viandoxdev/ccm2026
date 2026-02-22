@@ -40,11 +40,11 @@ Période générale : fin juin à mi-juillet 2026.
 | Mathématiques 2 / B | 7 | 6 (Maths D) | 5 | 19 |
 | Physique 1 / A | 6 | 6 | 3 | 12 |
 | Physique 2 / B | - | - | 4 | 12 |
-| Informatique (A / B / Fond.) | 5 | 4 (Info A) + 4 (Info Fond) | 4 (2 Option + 2 Commune) | 10 |
+| Informatique (A / B / Fond.) | 6 | 4 (Info A) + 4 (Info Fond) | 4 (2 Option + 2 Commune) | 10 |
 | Chimie | - | - | 2 | Intégré à Physique |
 | Français / Rédaction | 6 | 3 | 5 | 17 |
-| Langue Vivante | 3 | 2 | 3 | 11 |
-| Total indicatif | 35 | 33 | 30 | 100 |
+| Langue Vivante | 6 | 2 | 3 | 11 |
+| Total indicatif | 39 | 33 | 30 | 100 |
 
 5. Coefficients - Oraux (Filière MP Info)
 Remarque : Les oraux des ENS varient énormément selon le concours spécifique choisi (Info vs Maths). Le tableau cible le profil général.
