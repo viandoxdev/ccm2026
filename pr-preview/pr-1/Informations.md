@@ -16,7 +16,11 @@ Les concours s'étalent sur 4 semaines denses, de la mi-avril à début mai 2026
  * Semaine 2 : CCINP / E3A (20 avril - 24 avril 2026)
    * Note : Semaine charnière pour les autres banques, non ciblée spécifiquement par la requête mais constituant la 2ème semaine.
  * Semaine 3 : Mines-Ponts (27 avril - 30 avril 2026)
-   * Les épreuves s'enchaînent sur 4 jours : Maths 1, Maths 2, Physique 1, Physique 2, Informatique, Chimie, Français, LV.
+   * Lundi 27/04 : Maths 1 (8h-11h) | Option Info/SI (13h-16h)
+   * Mardi 28/04 : Français (8h-11h) | Maths 2 (13h-17h)
+   * Mercredi 29/04 : Physique 1 (8h-11h) | Physique 2 (13h-16h)
+   * Jeudi 30/04 : Informatique Commune (8h-10h) | Chimie (11h15-12h45) | LV (14h15-15h45)
+   * Note : La filière MPI a des horaires spécifiques (ex: Info 2 de 8h à 12h le jeudi).
  * Semaine 4 : Centrale-Supélec (4 mai - 7 mai 2026)
    * Lundi 04/05 : Maths 1 (8h-12h) | Rédaction (14h-18h)
    * Mardi 05/05 : Phys-Chimie 1 (8h-12h) | Informatique (14h-18h)
@@ -40,7 +44,7 @@ Période générale : fin juin à mi-juillet 2026.
 | Mathématiques 2 / B | 7 | 6 (Maths D) | 5 | 19 |
 | Physique 1 / A | 6 | 6 | 3 | 12 |
 | Physique 2 / B | - | - | 4 | 12 |
-| Informatique (A / B / Fond.) | 6 | 4 (Info A) + 4 (Info Fond) | 4 (2 Option + 2 Commune) | 10 |
+| Informatique (A / B / Fond.) | 6 | 4 (Info A) + 4 (Info Fond) | 2 (Option) + 2 (Commune) | 10 |
 | Chimie | - | - | 2 | Intégré à Physique |
 | Français / Rédaction | 6 | 3 | 5 | 17 |
 | Langue Vivante | 6 | 2 | 3 | 11 |
@@ -53,11 +57,12 @@ Remarque : Les oraux des ENS varient énormément selon le concours spécifique 
 | Mathématiques | 16 (Maths 1) + 16 (Maths 2) | 12 | 19 (Maths 1) + 19 (Maths 2 Info) |
 | Physique | 20 | 10 | 13 (Phys 1) + 13 (Phys 2 Info) |
 | TP Physique / Chimie | 9 (Chimie) | - | 12 (TP) |
+| Écrit d'admission (Info/Spé) | 4 | - | - |
 | Informatique / ADS | 15 (ADS/Info) | 2 (Reprise Écrit) | - |
 | Français / Entretien | 8 | 6 | - |
 | Langue Vivante | 8 | 5 | 13 |
 | TIPE | - (Non requis) | 6 | 11 |
 | Sport | 5 | - | - |
-| Total indicatif | 97 | 41 | 100 |
+| Total Indicatif | **101** | **41** | **100** |
 
 Vérification terminée. Les données sont cohérentes avec les notices 2026 et 2025.
