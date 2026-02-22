@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concours CPGE 2026 - MP Option Informatique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-effect shadow-sm top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 font-bold text-xl text-indigo-700">
+                    Concours 2026 <span class="text-slate-500 text-sm font-normal">| MP Option Info</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#calendrier-ecrits" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Écrits</a>
+                    <a href="#calendrier-oraux" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Oraux</a>
+                    <a href="#coefficients" class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Coefficients</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-16 bg-gradient-to-br from-indigo-900 via-blue-800 to-indigo-700 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
+                Session 2026 des Concours
+            </h1>
+            <p class="text-xl text-indigo-100 max-w-3xl mx-auto">
+                Le guide de référence pour la filière MP (Option Informatique). Retrouvez toutes les dates et les coefficients des concours X, ENS, Mines-Ponts et Centrale-Supélec.
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-20">
+
+        <!-- Calendrier des Écrits -->
+        <section id="calendrier-ecrits" class="scroll-mt-24">
+            <div class="border-l-4 border-indigo-500 pl-4 mb-8">
+                <h2 class="text-3xl font-bold text-slate-800">Calendrier des Écrits (Les 4 semaines)</h2>
+                <p class="text-slate-500 mt-2">Le marathon des écrits s'étale de la mi-avril à début mai 2026.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Semaine 1 -->
+                <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-blue-500 hover:shadow-lg transition-shadow">
+                    <div class="text-blue-600 font-bold text-sm tracking-wider uppercase mb-2">Semaine 1</div>
+                    <h3 class="text-xl font-bold mb-1">X - ENS</h3>
+                    <p class="text-slate-500 text-sm mb-4 font-medium">Du 13 au 17 avril 2026</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-semibold block text-slate-900">Lun 13 avril :</span> Maths A (8h) / Français (14h)</li>
+                        <li><span class="font-semibold block text-slate-900">Mar 14 avril :</span> Maths B (8h) / Info A (14h)</li>
+                        <li><span class="font-semibold block text-slate-900">Mer 15 avril :</span> Physique A (8h) / LV (14h)</li>
+                        <li><span class="font-semibold block text-slate-900">Jeu 16 avril :</span> Info B (16h30)</li>
+                        <li><span class="font-semibold block text-slate-900">Ven 17 avril :</span> Info Fondamentale (14h)</li>
+                    </ul>
+                </div>
+
+                <!-- Semaine 2 -->
+                <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-slate-400 hover:shadow-lg transition-shadow">
+                    <div class="text-slate-500 font-bold text-sm tracking-wider uppercase mb-2">Semaine 2</div>
+                    <h3 class="text-xl font-bold mb-1">CCINP / E3A</h3>
+                    <p class="text-slate-500 text-sm mb-4 font-medium">Du 20 au 24 avril 2026</p>
+                    <p class="text-sm text-slate-600 italic">
+                        Semaine intercalaire consacrée principalement aux banques CCINP et E3A-Polytech.
+                    </p>
+                </div>
+
+                <!-- Semaine 3 -->
+                <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-emerald-500 hover:shadow-lg transition-shadow">
+                    <div class="text-emerald-600 font-bold text-sm tracking-wider uppercase mb-2">Semaine 3</div>
+                    <h3 class="text-xl font-bold mb-1">Mines-Ponts</h3>
+                    <p class="text-slate-500 text-sm mb-4 font-medium">Du 27 au 30 avril 2026</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-semibold block text-slate-900">Lundi 27/04 :</span> Maths 1 (8h-11h) | Option Info/SI (13h-16h)</li>
+                        <li><span class="font-semibold block text-slate-900">Mardi 28/04 :</span> Français (8h-11h) | Maths 2 (13h-17h)</li>
+                        <li><span class="font-semibold block text-slate-900">Mercredi 29/04 :</span> Physique 1 (8h-11h) | Physique 2 (13h-16h)</li>
+                        <li><span class="font-semibold block text-slate-900">Jeudi 30/04 :</span> Info Commune (8h-10h) | Chimie (11h15-12h45) | LV (14h15-15h45)</li>
+                    </ul>
+                </div>
+
+                <!-- Semaine 4 -->
+                <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-red-500 hover:shadow-lg transition-shadow">
+                    <div class="text-red-600 font-bold text-sm tracking-wider uppercase mb-2">Semaine 4</div>
+                    <h3 class="text-xl font-bold mb-1">Centrale-Supélec</h3>
+                    <p class="text-slate-500 text-sm mb-4 font-medium">Du 4 au 7 mai 2026</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-semibold block text-slate-900">Lun 4 mai :</span> Maths 1 (8h) / Rédac. (14h)</li>
+                        <li><span class="font-semibold block text-slate-900">Mar 5 mai :</span> Phys-Chi 1 (8h) / Info (14h)</li>
+                        <li><span class="font-semibold block text-slate-900">Mer 6 mai :</span> Phys-Chi 2 (8h) / LV (14h)</li>
+                        <li><span class="font-semibold block text-slate-900">Jeu 7 mai :</span> Maths 2 (8h)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Calendrier des Oraux -->
+        <section id="calendrier-oraux" class="scroll-mt-24">
+            <div class="border-l-4 border-indigo-500 pl-4 mb-8">
+                <h2 class="text-3xl font-bold text-slate-800">Calendrier des Oraux (Séries)</h2>
+                <p class="text-slate-500 mt-2">Répartition globale des oraux par école et par série.</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div>
+                            <h4 class="font-bold text-lg text-slate-800 mb-3 flex items-center">
+                                <span class="w-3 h-3 rounded-full bg-blue-500 mr-2"></span> X - ENS
+                            </h4>
+                            <p class="text-slate-600 text-sm">Les oraux se déroulent généralement de la <strong>mi-juin à début juillet 2026</strong>. Les convocations sont individuelles et publiées après les résultats d'admissibilité.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-slate-800 mb-3 flex items-center">
+                                <span class="w-3 h-3 rounded-full bg-emerald-500 mr-2"></span> Mines-Ponts
+                            </h4>
+                            <ul class="space-y-2 text-sm text-slate-600">
+                                <li><strong>Série 1 :</strong> du 22 au 28 juin 2026</li>
+                                <li><strong>Série 2 :</strong> du 29 juin au 5 juillet 2026</li>
+                                <li><strong>Série 3 :</strong> du 6 au 12 juillet 2026</li>
+                                <li><strong>Série 4 :</strong> du 13 au 18 juillet 2026</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-slate-800 mb-3 flex items-center">
+                                <span class="w-3 h-3 rounded-full bg-red-500 mr-2"></span> Centrale-Supélec
+                            </h4>
+                            <p class="text-slate-600 text-sm">Les épreuves orales et pratiques auront lieu <strong>du lundi 22 juin au dimanche 19 juillet 2026</strong> en région parisienne.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tableaux des Coefficients -->
+        <section id="coefficients" class="scroll-mt-24">
+            <div class="border-l-4 border-indigo-500 pl-4 mb-8">
+                <h2 class="text-3xl font-bold text-slate-800">Tableaux des Coefficients</h2>
+                <p class="text-slate-500 mt-2">Pour la filière MP, spécialité Informatique.</p>
+            </div>
+
+            <!-- Écrits -->
+            <div class="mb-10">
+                <h3 class="text-xl font-bold mb-4 text-slate-700">1. Épreuves Écrites</h3>
+                <div class="overflow-x-auto rounded-lg shadow ring-1 ring-black ring-opacity-5">
+                    <table class="min-w-full divide-y divide-slate-200">
+                        <thead class="bg-slate-50">
+                            <tr>
+                                <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-slate-900 sm:pl-6">Épreuve</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-slate-900">X (Polytechnique)</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-slate-900">ENS Ulm (Concours Info)</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-slate-900">Mines-Ponts</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-slate-900">CentraleSupélec</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 bg-white">
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Mathématiques 1 / A</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">8</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">8 <span class="text-xs font-normal text-slate-400">(4+4)</span></td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">4</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">19</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Mathématiques 2 / B / D</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">7</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600">6 <span class="text-xs font-normal text-slate-400">(Maths D)</span></td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">5</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">19</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Physique 1 / A</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">6</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">6</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">3</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">12</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Physique 2 / B</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">4</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">12</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Informatique (A / B / Fond.)</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">6</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">8 <span class="text-xs font-normal text-slate-400">(4+4)</span></td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">2 <span class="text-xs font-normal text-slate-400">(Option)</span> + 2 <span class="text-xs font-normal text-slate-400">(Commune)</span></td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">10</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Chimie</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">2</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400 text-xs">(Intégré Phys 1/2)</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Français / Rédaction</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">6</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">3</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">5</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">17</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Langue Vivante</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">6</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">2</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">3</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">11</td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="bg-indigo-50">
+                            <tr>
+                                <th scope="row" class="py-3.5 pl-4 pr-3 text-left text-sm font-bold text-indigo-900 sm:pl-6">Total Indicatif</th>
+                                <td class="px-3 py-3.5 text-sm font-bold text-indigo-900">39</td>
+                                <td class="px-3 py-3.5 text-sm font-bold text-indigo-900">33</td>
+                                <td class="px-3 py-3.5 text-sm font-bold text-indigo-900">30</td>
+                                <td class="px-3 py-3.5 text-sm font-bold text-indigo-900">100</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Oraux -->
+            <div>
+                <h3 class="text-xl font-bold mb-4 text-slate-700">2. Épreuves Orales (Principales Écoles)</h3>
+                <div class="overflow-x-auto rounded-lg shadow ring-1 ring-black ring-opacity-5">
+                    <table class="min-w-full divide-y divide-slate-200">
+                        <thead class="bg-slate-50">
+                            <tr>
+                                <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-slate-900 sm:pl-6">Épreuve</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-slate-900">X (Polytechnique)</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-slate-900">Mines-Ponts</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-slate-900">CentraleSupélec</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 bg-white">
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Mathématiques</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">32 <span class="text-xs font-normal text-slate-400">(16+16)</span></td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">12</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">38 <span class="text-xs font-normal text-slate-400">(19+19)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Physique</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">20</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">10</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">26 <span class="text-xs font-normal text-slate-400">(13+13)</span></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">TP Physique / Chimie</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">9 <span class="text-xs font-normal text-slate-400">(Chimie)</span></td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">12</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Écrit d'admission (Info/Spé)</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">4</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Informatique / ADS</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">15</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">2 <span class="text-xs font-normal text-slate-400">(Reprise)</span></td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Français / Entretien</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">8</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">6</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Langue Vivante</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">8</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">5</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">13</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">TIPE</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">6</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">11</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-slate-900 sm:pl-6">Sport</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-600 font-semibold">5</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-slate-400">-</td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="bg-indigo-50">
+                            <tr>
+                                <th scope="row" class="py-3.5 pl-4 pr-3 text-left text-sm font-bold text-indigo-900 sm:pl-6">Total Indicatif</th>
+                                <td class="px-3 py-3.5 text-sm font-bold text-indigo-900">101</td>
+                                <td class="px-3 py-3.5 text-sm font-bold text-indigo-900">41</td>
+                                <td class="px-3 py-3.5 text-sm font-bold text-indigo-900">100</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2026 Concours CPGE. Informations non contractuelles à vérifier auprès des notices officielles.</p>
+        </div>
+    </footer>
+</body>
+</html>
