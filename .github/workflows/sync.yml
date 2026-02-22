@@ -1,0 +1,47 @@
+name: Sync index.html to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+    # Optional: uncomment the lines below to only run this workflow when index.html is modified
+    paths:
+      - 'index.html'
+
+# Required to allow the GitHub Actions bot to push to the repository
+permissions:
+  contents: write
+
+jobs:
+  update-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history for all branches
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Update index.html on gh-pages branch
+        run: |
+          # 1. Copy index.html to a temporary location outside the repository
+          cp index.html /tmp/index.html
+          
+          # 2. Try to checkout the existing gh-pages branch, or create it as an orphan if it doesn't exist
+          git checkout gh-pages || git checkout --orphan gh-pages
+          
+          # 3. Bring the copied index.html into the current (gh-pages) working directory
+          cp /tmp/index.html ./index.html
+          
+          # 4. Stage the file
+          git add index.html
+          
+          # 5. Commit the changes (the '|| true' prevents the workflow from failing if there are no changes to commit)
+          git commit -m "chore: update index.html from main" || true
+          
+          # 6. Push the branch to the remote repository
+          git push origin gh-pages
